@@ -6,7 +6,7 @@ Plugins depend on. Follow the instructions to add more types and publish them to
 2. Add the new submodule to `package.json` 
 3. Update Types Version in `package.json`
 4. Build the types using `npx tsc`
-5. Publish as per `npm` publishing guidelines.
+5. Publish as per `npm` publishing guidelines
 
 ## For Consumers
 The library is used to obtain Vortex Music types while developing plugins and integrations for the app.
