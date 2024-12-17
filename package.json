@@ -1,0 +1,22 @@
+{
+  "name": "@vortex-music/types",
+  "version": "1.0.6",
+  "description": "Vortex Music Types",
+  "exports": {
+    "./BasePlugin": "./dist/BasePlugin/index.d.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Atheesh Thirumalairajan",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "typescript": "^5.x"
+  }
+}
